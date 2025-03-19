@@ -6,7 +6,7 @@ import { GiElectric } from "react-icons/gi";
 
 function Choose({ imageSrc }: { imageSrc: string }) {
   return (
-    <div className="group h-[340px] w-[390px] rounded-2xl bg-neutral-800 hover:bg-lime-300 lg:h-[300px] lg:w-[300px]">
+    <div className="group h-[340px] w-[390px] cursor-pointer rounded-2xl bg-neutral-800 hover:bg-lime-300 lg:h-[300px] lg:w-[300px]">
       <Image
         src={imageSrc}
         alt="Weights"

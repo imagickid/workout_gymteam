@@ -50,10 +50,10 @@ function Hero() {
         </div>
         <div className="flex flex-col items-center justify-center gap-6">
           <div className="flex justify-center gap-6 sm:mt-20 md:mt-10">
-            <button>
+            <button className="cursor-pointer">
               <TfiArrowCircleLeft className="text-4xl md:text-3xl" />
             </button>
-            <button>
+            <button className="cursor-pointer">
               <TfiArrowCircleRight className="text-4xl md:text-3xl" />
             </button>
           </div>

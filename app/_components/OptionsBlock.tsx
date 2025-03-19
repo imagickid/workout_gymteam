@@ -25,8 +25,11 @@ function OptionsBlock() {
   return (
     <div className="flex items-center">
       <div className="mr-3 flex items-center space-x-5 sm:mr-5 sm:space-x-7 md:mr-2 md:space-x-4">
-        <RiSearch2Line className="text-2xl" onClick={toggleSearch} />
-        <MdOutlineMail className="text-2xl" />
+        <RiSearch2Line
+          className="cursor-pointer text-2xl"
+          onClick={toggleSearch}
+        />
+        <MdOutlineMail className="cursor-pointer text-2xl" />
       </div>
       <span>
         <Hamburger toggled={isOpen} toggle={toggleMenu} size={18} />
